@@ -1,0 +1,20 @@
+use_frameworks!
+target 'FoxData' do
+    pod 'Alamofire', '~> 4.4.0'
+    pod 'MariaDBConnector', :path => './Connectors/MariaDB'
+    pod 'OpenSSL', :path => './Connectors/OpenSSL'
+    pod 'LibSSH2', :path => './Connectors/LibSSH2'
+    pod 'SnapKit', '~> 4.0.0'
+    pod 'UIColor_Hex_Swift', '~> 4.2.0'
+    pod 'Highlightr'
+    pod 'NVActivityIndicatorView'
+    pod 'SQLite.swift', '~> 0.11.5'
+    pod 'PopupDialog', '~> 0.9'
+    pod 'ESTabBarController-swift'
+    pod 'IQKeyboardManagerSwift'
+    pod 'SideMenu'
+    pod 'LifetimeTracker'
+    pod 'Firebase/Core'
+    pod 'Fabric'
+    pod 'Crashlytics'
+end
